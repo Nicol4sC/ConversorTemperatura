@@ -9,7 +9,7 @@ export default function CalcularTemp() {
 
   const calc_temp = () => {
     const CalcTemp = (temperatura * 9 / 5) + 32;
-    setTemperatura(CalcTemp.toFixed(2));
+    setTemperatura(CalcTemp);
     setVisible(true);
   };
 

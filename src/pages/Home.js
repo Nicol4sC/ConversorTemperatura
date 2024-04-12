@@ -18,7 +18,7 @@ export default function Home() {
       </TouchableOpacity>
 
       <TouchableOpacity onPress={() => navigation.navigate("CalcularTemp")}>
-        <Text>Calcular Temperatura</Text>
+        <Text>Converter Temperatura</Text>
       </TouchableOpacity>
     </View>
   );
